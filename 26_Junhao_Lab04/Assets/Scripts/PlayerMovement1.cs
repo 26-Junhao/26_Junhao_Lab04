@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement1 : MonoBehaviour
 {
     public float speed;
     public Rigidbody PlayerRigidbody;
@@ -22,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if(coin >= 4)
         {
-            SceneManager.LoadScene("GamePlay_Level2");
+            SceneManager.LoadScene("GameWin");
         }
     }
 
